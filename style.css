@@ -1,0 +1,35 @@
+body{
+    background-color: cornflowerblue;
+}
+
+#sections-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+section{
+    background-color: aliceblue;
+    border-radius: 20px;
+    width: 25%;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    padding: 20px;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+code{
+    padding: 5px;
+    border-radius: 3px;
+    background-color: black;
+    color: greenyellow;
+}
