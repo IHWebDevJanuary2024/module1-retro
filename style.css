@@ -3,9 +3,12 @@ body{
 }
 
 #sections-container{
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 section{
@@ -32,4 +35,9 @@ code{
     border-radius: 3px;
     background-color: black;
     color: greenyellow;
+}
+
+h1{
+    text-align: center;
+    color: white;
 }
